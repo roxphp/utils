@@ -1,0 +1,30 @@
+{
+    "name": "rox/utils",
+    "description": "",
+    "keywords": ["utils", "inflector"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/roxphp/utils",
+    "authors": [
+        {
+            "name": "Ramon Torres",
+            "homepage": "http://rtorres.me/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/roxphp/utils/issues"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.5.0"
+    },
+    "autoload":{
+        "psr-4": {
+            "Rox\\Utils\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

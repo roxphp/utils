@@ -1,0 +1,6 @@
+vendor
+composer.lock
+
+# Mac
+.DS_Store
+
